@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block page_title  %}{{Month_challengs}} Challenge{% endblock  %}
+{% block content %}
+<h1>{% include "challenges/include/navigation.html" with this='Challenge'%} </h1>
+<h1>{{Month_challengs|title}} Challenge</h1> 
+ 
+        {% if challange is not None %}
+             <h2>{{ challange }}</h2>
+        {% else %}
+        <h1> challange is not found </h1>
+        
+        {% endif %}
+{% endblock  %}
+   

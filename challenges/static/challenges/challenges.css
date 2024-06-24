@@ -1,0 +1,23 @@
+ul{
+    list-style: none;
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 20rem;
+    box-shadow: 0 10px 8x rgba(226, 9, 9, 0.26);
+    padding: 1rem;
+    border-radius: 12px;
+    
+    background: rgb(236, 4, 4);
+}
+li{
+    text-align: center;
+    margin: 2%;
+    font-size: 222%;
+}
+li:last-of-type,li:nth-of-type(6){
+    border-bottom: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
